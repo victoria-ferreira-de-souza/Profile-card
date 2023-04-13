@@ -1,0 +1,106 @@
+body{
+    background-image: url(https://www.macquarie.com/au/en/perspectives/technology/_jcr_content/root/general_hero_copy/mobile-image.coreimg.jpeg/1671162255476/hero-technology-hub.jpeg);
+    align-items: center;
+}
+
+.foto{
+    height:150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+    transform: translateY(0%);
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+    box-shadow: 3px 3px 16px 6px rgb(238, 12, 189);
+}
+
+.card{
+   background-color: rgb(2, 2, 21);
+   height: 560px;
+   padding: 20px 35px;
+   flex-basis: 400px;
+   width: 326px;
+   border: 1px solid;
+   margin: auto;
+}
+
+.card-name{
+    color: aliceblue;
+    height: 11%;
+    text-align: center;
+}
+
+.card-social{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+    height: 15%;
+}
+
+.button-follow{
+    background-color: rgb(2, 2, 21);
+    color: rgb(64, 177, 195);
+    border-color: rgb(64, 177, 195);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    width: 150px;
+    height: 44px;
+    margin: 0;
+    transition: all 1.2s ease;
+}
+
+.button-message{
+    background-color: rgb(2, 2, 21);
+    color: rgb(64, 177, 195);
+    border-color: rgb(64, 177, 195);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    width: 150px;
+    height: 44px;
+    margin: 0;
+    transition: all 1.1s ease
+}
+
+.button-curriculum{
+    background-color: rgb(2, 2, 21);
+    color: rgb(64, 177, 195);
+    border-color: rgb(64, 177, 195);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    width: 150px;
+    height: 44px;
+    margin: 0;
+    transition: all 1.1s ease
+}
+
+.button-follow:hover{
+    color:rgb(233, 229, 31);
+    border-color: rgb(234, 16, 122);
+   transform: scale(1.1);
+}
+
+.button-message:hover{
+    color:rgb(233, 229, 31);
+    border-color: rgb(234, 16, 122);
+   transform: scale(1.1);
+}
+
+.button-curriculum:hover{
+    color:rgb(233, 229, 31);
+    border-color: rgb(234, 16, 122);
+   transform: scale(1.1);
+}
+
+.card-social-insta:hover{
+    transform: scale(1.1);
+}
+
+.card-social-twitter:hover{
+    transform: scale(1.1);
+}
+
+.card-social-face:hover{
+    transform: scale(1.1);
+}
